@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    max-resolution: 0px;
+}
+
+body{
+    
+    overflow: hidden;
+    width: 100vw;
+	height: 100vh;
+}
+    
+.image{
+    padding: 20px;
+    border-radius: 50px 50px 50px ;
+    background: rgba(0, 0, 0, 0.5);
+    background-image:url(back.png);
+     background-repeat: no-repeat; 
+	background-size: cover;
+    height:650px ;
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+    background-blend-mode:darken;
+}	
+    
+    
+
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+header ul{
+    color:rgb(246, 201, 19);
+    width:60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 260px;
+    margin-left: 20px;
+    
+    
+}
+header button{
+    width: 8%;
+    height: 40px;
+    color: white;
+    background-color:rgb(210, 74, 102);
+    border: 2px solid rgb(210, 74, 102);
+    font-family: 'Dela Gothic One', cursive; 
+    /* margin-left: 400px; */
+    
+}
+
+ li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+section{
+    
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+section div{
+    margin-top: 85px;
+    color:rgb(246, 201, 19);
+
+}
+section h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 1000px;
+    font-family: 'Dela Gothic One', cursive;  
+    margin: 0px; 
+    
+}
+
+section button{
+    margin-top: 20px;
+    
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color:rgb(210, 74, 102);
+    border: 2px solid rgb(210, 74, 102);
+    font-family: 'Dela Gothic One', cursive; 
+}
+
+ footer{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 90px;
+} 
